@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(184, 255, 255);
+}
+
+div.header{
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.header nav{
+    width: 100%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(11, 11, 11);
+    align-items: center;
+}
+
+.Title{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 1%;
+}
+
+ul#tagslist{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* Employee list CSS styling */
+
+div.employee-list{
+    padding: 2%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(184, 255, 255);
+}
+
+div.employees{
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+}
+
+.employee-data {
+    width: 100%;
+    border-collapse: collapse; 
+    margin: 20px 0;
+    font-size: 1em;
+  }
+
+.employee-data thead {
+    background-color: #007bff; 
+    color: #fff;
+  }
+
+  .employee-data th {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #f8f8f8; 
+  }
+
+.employee-data tbody tr {
+    border-bottom: 1px solid #ffffff; /* Bottom border for tbody rows */
+}
+
+.employee-data td{
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.employee-data tbody tr:nth-child(even) {
+    background-color: #dbd9d9;
+  }
+
+.employee-data tbody .actions{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+}
+  
+.employee-data tbody .actions button{
+    padding: 4px 10px;
+    background-color: rgb(35, 28, 28);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Employee card css styling  */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    overflow: hidden;
+    margin: 3% auto;
+    border-radius: 15px;
+    background-color: #007bff; 
+    border: 1px solid rgb(243, 243, 243);
+    color: white;
+}
+
+div.employee-detail{
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 3%;
+}
+
+.details {
+    padding: 10px;
+  }
+  
+  .details p {
+    margin: 10px 0;
+  }
+  
+  .details strong {
+    font-weight: bold;
+    margin-right: 6px;
+  }
+
+
+  /* update css styling */
+
+  /* styles.css */
+
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .update-employee {
+    background-color: #007bff;
+    color: #fff;
+    padding: 14px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .employee-form {
+    padding: 20px;
+  }
+  
+  .fields {
+    margin-bottom: 15px;
+  }
+  
+  .fields label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .fields input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .fields input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  button[type='submit'] {
+    background-color: #e5e9ee;
+    color: #040ca6;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #5aa1ee;
+    border: 2px solid white;
+  }
+  
